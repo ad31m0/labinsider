@@ -26,4 +26,6 @@ https://labinsider.duot.io
 - Uses React, react-router-dom, Material-UI, mui-datatables
 - Uses Meteor methods for retrieving data, much faster than normal REST
 - REST api can be exposed by a onliner installing simple:rest api, all methods are exposed as with already configured access config
-- App doesn't make use of Meteor DDP protocol subscribing for large datasets should be avoided
+- Real benefit of using meteor in data reactivity by default, no need to refresh page to see changes
+- However, app doesn't make use of Meteor DDP protocol in the list page as subscribing for large datasets should be avoided, should only be used for pages with limited documents (lab profile, notifications, etc)
+
