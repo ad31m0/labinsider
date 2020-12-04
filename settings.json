@@ -1,7 +1,0 @@
-{
-  "galaxy.meteor.com": {
-     "env": {
-       "MONGO_URL": "mongodb+srv://jobhunt:jobhunt@jobhunt.jx9bk.mongodb.net/labinsider?retryWrites=true&w=majority"
-     }
-   }
-}
